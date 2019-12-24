@@ -1,6 +1,6 @@
 public class maopaohanshu {
     public static void main(String[] args) {
-        int arr[] = { 5, 10, 12, 6, 1 };
+        int arr[] = { 5, 10, 12, 6, 1,10 };
         System.out.println("排序前数组为：");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
@@ -18,6 +18,7 @@ public class maopaohanshu {
         System.out.println("排序后组数为：");
         for (int num : arr) {
             System.out.print(num + " ");
+            System.out.println("分支：xyltest");
         }
     }
 }
